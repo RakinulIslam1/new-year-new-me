@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 header img {
-  width: 100%;
+  width: 100%;  
 }
 header {
   /* display: flex; */
@@ -31,4 +31,37 @@ header {
     border: 0;
     font-weight: 600;
     border-radius: 8px;
+}
+.main_body{
+  display: flex;
+  /* margin: 30px 100px;
+  gap: 20px; */
+  justify-content: space-evenly;
+  /* margin: 70px 160px; */
+  margin: 70px auto;
+
+}
+.body_img img{
+  width: 70%;
+  background-image: url('./images/back.png');
+  background-repeat: no-repeat;
+  
+}
+.body_text{
+  text-align: start;
+  font-size: 17px;
+  margin: auto 0px;
+  width: 28%;
+  /* margin: 100px; */
+  /* margin: auto 200px; */
+}
+.body_text > h3{
+  font-weight: 800;
+  font-size: 30px;
+}
+.body_text > p{
+  /* padding: 0 200px; */
+}
+#tick{
+  color: limegreen;
 }
