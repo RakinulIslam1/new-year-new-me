@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 header img {
-  width: 100%;  
+  width: 100%;
 }
 header {
   /* display: flex; */
@@ -20,34 +20,32 @@ header {
   text-align: end;
   margin: 0 30px;
 }
-.header_text >h2{
-    font-weight: 800;
-    font-size: 40px;
+.header_text > h2 {
+  font-weight: 800;
+  font-size: 40px;
 }
-.header_text button{
-    background-color: orangered;
-    color: white;
-    padding: 10px 20px;
-    border: 0;
-    font-weight: 600;
-    border-radius: 8px;
+.header_text button {
+  background-color: orangered;
+  color: white;
+  padding: 10px 20px;
+  border: 0;
+  font-weight: 600;
+  border-radius: 8px;
 }
-.main_body{
+.main_body {
   display: flex;
   /* margin: 30px 100px;
   gap: 20px; */
   justify-content: space-evenly;
   /* margin: 70px 160px; */
   margin: 70px auto;
-
 }
-.body_img img{
+.body_img img {
   width: 70%;
-  background-image: url('./images/back.png');
+  background-image: url("./images/back.png");
   background-repeat: no-repeat;
-  
 }
-.body_text{
+.body_text {
   text-align: start;
   font-size: 17px;
   margin: auto 0px;
@@ -55,13 +53,55 @@ header {
   /* margin: 100px; */
   /* margin: auto 200px; */
 }
-.body_text > h3{
+.body_text > h3 {
   font-weight: 800;
   font-size: 30px;
 }
-.body_text > p{
+.body_text > p {
   /* padding: 0 200px; */
 }
-#tick{
+#tick {
   color: limegreen;
 }
+
+.plan_txt {
+  text-align: center;
+  margin: 10px;
+  font-weight: 800;
+}
+.plans h3 {
+  font-weight: 800;
+  margin: 0 0;
+}
+.plans {
+  font-weight: 600;
+  margin: 0 10px;
+}
+.my_plans {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.banner img {
+  width: 60%;
+  margin: 50px 0;
+}
+.banner {
+  text-align: center;
+  background-image: url("./images/gradient2.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  
+}
+/* .grad img{
+  width: 60%;  
+}
+.grad{
+  text-align: center;
+  position: relative;
+  bottom: 267px;
+  margin-bottom: 0;
+  
+} */
