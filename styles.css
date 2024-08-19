@@ -90,18 +90,16 @@ header {
 }
 .banner {
   text-align: center;
-  background-image: url("./images/gradient2.png");
-  background-repeat: no-repeat;
+  /* background-image: url("./images/gradient2.png"); */
+  /* background-repeat: no-repeat; */
   background-size: 60%;
-  
 }
-/* .grad img{
-  width: 60%;  
-}
-.grad{
+.banner_grad{
   text-align: center;
-  position: relative;
-  bottom: 267px;
-  margin-bottom: 0;
-  
-} */
+  background-size: 60%;
+}
+ /* .banner_grad img{
+  position: absolute;
+  width: 60%;
+  margin: 50px 0;
+ } */
